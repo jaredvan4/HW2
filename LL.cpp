@@ -6,10 +6,13 @@
 #include "LLN.h"
 #include "PG2.h"
 using namespace std;
+//Contains all the function definitions for the declerations(prototypes)present in LL.h
 
+//constructor for LL class
 LL::LL() {
 	head = NULL;
 }
+//destructor for LL class
 
 LL::~LL() {
 	delete head;

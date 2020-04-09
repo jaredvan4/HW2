@@ -1,3 +1,5 @@
+//Jared VanEnkevort
+//contains the function prototypes for the definitions present in PG2.cpp
 #pragma once
 #ifndef _PG2_
 #define _PG2_

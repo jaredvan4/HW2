@@ -4,6 +4,7 @@
 #include <cstdlib>
 #include "LLN.h"
 using namespace std;
+//Contains all the function definitions for the declerations present in LLN.h
 
 LLN* LLN::getLast()
 //returns the last LLN  in the LL
@@ -30,11 +31,11 @@ int LLN::longest() {
 	return max;
 
 }
-
+//constructor for LLN
 LLN::LLN(string s, LLN* n) {
 	contents = s; next = n;
 }
-
+//Destructor for LLN 
 LLN::~LLN() {
 	cout << "About to delete" << contents << endl;
 	delete next;
